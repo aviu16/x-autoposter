@@ -4,7 +4,7 @@ Automated content creation and posting system for X (Twitter) using AI for conte
 
 ## Features
 
-- **AI Content Generation** — uses Groq (Llama 3.3 70B) as primary, Claude as fallback for generating tweets, threads, and replies
+- **AI Content Generation** — uses Groq (Llama 3.3 70B) as primary, AI as fallback for generating tweets, threads, and replies
 - **Algorithm-Aware Scheduling** — posts at optimal times based on X algorithm research for maximum reach
 - **Engagement Tracking** — monitors likes, retweets, replies, and impressions; adjusts strategy based on performance
 - **Thread Support** — generates multi-tweet threads with proper formatting
@@ -15,7 +15,7 @@ Automated content creation and posting system for X (Twitter) using AI for conte
 
 - **Python** — core runtime
 - **Groq API** — Llama 3.3 70B for fast, free content generation
-- **Anthropic API** — Claude as fallback AI provider
+- **Anthropic API** — AI as fallback AI provider
 - **X/Twitter API v2** — posting, engagement tracking
 - **feedparser** — RSS news ingestion
 - **SQLite** — local engagement data storage
